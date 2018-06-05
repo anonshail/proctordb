@@ -32,8 +32,14 @@
 	.bg3{
 		background-image: url("./../images/background3.jpg");
 	}
-
+	.bg4{
+		background-image: url("./../images/background3.jpg");
+	}
 	nav{
 
 		background-image: radial-gradient(#b71c1c,#880e4f );
+	}
+
+	.tabfn{
+		font-weight: bold;
 	}

@@ -45,9 +45,10 @@
 		</ul>
 
 
-		<div class="row" style="margin-top: 5%">
+		<div class="row" style="margin-top: 3%">
 			<div class="col s10 offset-s1 z-depth-4 card">
 				<div>
+					<br>
 					<br>
 					<br>
 					<br>
