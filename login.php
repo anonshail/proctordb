@@ -15,6 +15,7 @@
         <div class="row">
            <div class="col s4 offset-s4 grey lighten-3 card z-depth-5" >
               <div style="margin-left: 5%;margin-right: 5%;">
+                  <p class="teal-text logo-text">Welcome</p>
                   <br>
                   <br>
 
@@ -48,7 +49,7 @@
                   <br>
                   <!-- Login button -->
                   <div>
-                    <button class="btn waves-effect z-depth-2 circle" type="submit" name="action" style="background-image: radial-gradient(#4db6ac ,#009688)">
+                    <button class="btn waves-effect z-depth-2 circle waves-green" type="submit" name="action" style="background-image: radial-gradient(#4db6ac ,#009688)">
                       Login
                       <i class="material-icons small right">send</i>
                     </button>
@@ -58,9 +59,9 @@
                   <br>
 
                   <div class="row">
-                    <a href="#" class="waves-effect teal-text accent-3 left-align waves-lighten" style="width: 40% ;float: left;">Forgot password?</a>
+                    <a href="#" class=" teal-text accent-3 left-align " style="width: 40% ;float: left;">Forgot password?</a>
 
-                    <a href="#" class=" waves-effect teal-text accent-3 right-align waves-lighten" style="width: 30%;float: right;">Register now!</a>
+                    <a href="#" class=" teal-text accent-3 right-align " style="width: 30%;float: right;">Register now!</a>
                   </div> 
                   
 
@@ -73,3 +74,10 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
   </html>
+
+  <style type="text/css">
+    .logo-text{
+      font-size:120%;
+      font-weight: bolder;
+    }
+  </style>
