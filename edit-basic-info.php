@@ -17,8 +17,8 @@
     <nav>
         <div class="nav-wrapper container" style="margin-top: 2%">
        
-          <a href="#" class="brand-logo left"><img src="images/logo.png" class="logo"></a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#" class="brand-logo center"><img src="images/logo.png" class="logo"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i class="material-icons" style="font-size: 320%">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#"><i class="material-icons" style="font-size: 320%">home</i></a></li>
             <li><a href="#"><i class="material-icons" style="font-size: 320%">edit</i></a></li>
@@ -32,7 +32,7 @@
       <li>
         <div class="user-view center z-depth-3">
           <div class="background">
-            <img src="images/side_background.jpeg">
+            <img src="images/background4.jpg">
           </div>
           <a href="#user"><img class="circle"><i class="material-icons" style="font-size: 500%">account_circle</i></a>
           <a href="#name"><span class="white-text name">name</span></a>
@@ -43,7 +43,6 @@
       <li class="icons"><a href="#"><i class="material-icons left teal-text">edit</i>Edit</a></li>
       <li class="icons"><a href="#"><i class="material-icons left teal-text">message</i>Messages</a></li>
     </ul>
-    <br>
 
     <!-- End of nav bar -->
       <!--CONTAINER-->
@@ -80,7 +79,7 @@
 
                 <div class="row">
                   <div class="col s6 input-field">  <!--DOB-->
-                    <input type="date" id="dob" calss="validate"></input>
+                    <input type="text" id="dob" class="validate datepicker"></input>
                     <label class="active black-text" for="dob">Date Of Birth</label>
                   </div>
 
@@ -208,6 +207,12 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript" src="js/init.js"></script>
-
+      <script>
+        const Calender = document.querySelector('.datepicker');
+        M.Datepicker.init(Calender,{
+          format:'dd/mm/yyyy',
+          showClearBtn:true
+        });
+      </script>
     </body>
   </html>
