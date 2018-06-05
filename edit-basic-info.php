@@ -48,7 +48,7 @@
     <!-- End of nav bar -->
       <!--CONTAINER-->
       <div class="container">
-        <div class="card-panel">
+        <div class="card-panel z-depth-5">
           <form>
 
             <div class="row">
@@ -56,7 +56,7 @@
               <div class="col s12">
                 <ul class="tabs">
                   <li class="tab col s3 offset-s2"><a href="#tab1" class="tabfn">Personal info</a></li>                  
-                  <li class="tab col s3"><a href="#tab2" class="tabfn">Parent info</a></li>
+                  <li class="tab col s3"><a href="#tab2" class="tabfn">Parents info</a></li>
                   <li class="tab col s3"><a href="#tab3" class="tabfn">Past exams</a></li>
                 </ul>
               </div> 
@@ -64,6 +64,8 @@
           
               <!-- TAB 1 -->
               <div class = "col s12" id="tab1"> 
+                <br>
+                <br>
                 <div class="row">
                   <div class="col s6 input-field">  <!--NAME-->
                     <input type="text" id="name"></input>
@@ -155,8 +157,8 @@
 
             <!-- TAB 3-->
             <div class = "col s12" id="tab3"> 
-            <h5 class="flow-text center">Details for qualifying examination</h5> <!--Board Details-->
-            <h6 class="flow-text">Class X</h6>  <!--Class X-->
+            <br>
+            <h6 class="flow-text tabfn red-text">Class X</h6>  <!--Class X-->
             <div class="row">
             <div class="col s4 input-field">  
             <input type="text" id="xboard"></input>
@@ -174,7 +176,7 @@
             </div>
             </div>
 
-            <h3 class="flow-text">Class XII</h3>  <!--Class XII-->
+            <h3 class="flow-text tabfn red-text">Class XII</h3>  <!--Class XII-->
             <div class="row">
             <div class="col s4 input-field">  
             <input type="text" id="xiiboard"></input>
@@ -193,7 +195,7 @@
             </div>
 
 
-            <div class="center-align"><a class="waves-effect waves-light btn red ligten-3"><i class="material-icons right">send</i>Submit</a></div>
+            <div class="center-align"><a class="waves-effect waves-purple btn red ligten-3"><i class="material-icons right">send</i>Submit</a></div>
             <br>
             </div>
 
