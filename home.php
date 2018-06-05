@@ -12,9 +12,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
-<body>
+<body class="bg bg1">
 		<!-- Navigation bar -->
-		<nav>
+		<nav class="transparant z-depth-0">
 		    <div class="nav-wrapper container" style="margin-top: 2%">
 		   
 		      <a href="#" class="brand-logo left"><img src="images/logo.png" class="logo"></a>
@@ -44,6 +44,38 @@
 			<li class="icons"><a href="#"><i class="material-icons left teal-text">message</i>Messages</a></li>
 		</ul>
 
+
+		<div class="row" style="margin-top: 5%">
+			<div class="col s10 offset-s1 z-depth-4 card">
+				<div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					
+				</div>
+			</div>
+		</div>
+
+
+
 		<!-- End of nav bar -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js
         "></script>
@@ -54,3 +86,4 @@
 
 
 </html>
+

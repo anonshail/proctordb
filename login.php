@@ -4,12 +4,13 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/custom.css" rel="stylesheet">
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
     <title>Login Page</title>
-    <body class="teal accent-3" style="background-image: linear-gradient(teal,#1de9b6,#1de9b6,teal)">
+    <body class="bg bg1">
       <!--Card -->
        <div class ="center" style="margin-top: 5%">
         <div class="row">

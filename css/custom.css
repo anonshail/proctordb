@@ -1,0 +1,39 @@
+	.logo{
+		width:5%;
+		margin-top: 1%;
+	}
+
+	.icons{
+			padding-top:5%;
+			}
+
+	body,html{
+			height: 90%;
+		}
+	
+	.bg {
+  
+	    /* Full height */
+	    height: 100%; 
+
+	    /* Center and scale the image nicely */
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	.bg1{
+		/* The image used */
+	    background-image: url("./../images/background.jpg");
+	}
+	.bg2{
+		/* The image used */
+	    background-image: url("./../images/background2.jpg");
+	}
+	.bg3{
+		background-image: url("./../images/background3.jpg");
+	}
+
+	nav{
+
+		background-image: radial-gradient(#b71c1c,#880e4f );
+	}
