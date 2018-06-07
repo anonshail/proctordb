@@ -1,12 +1,15 @@
 $(document).ready(function(){
     $('.sidenav').sidenav();
   });
+  $(document).ready(function(){
+      $('.dropdown-trigger').dropdown();
+    });
 $(document).ready(function(){
     $('.tabs').tabs();
   });
 
 $(document).ready(function(){
-    
+
     const Calender = document.querySelector('.datepicker');
         M.Datepicker.init(Calender,{
           format:'dd/mm/yyyy',
